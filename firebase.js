@@ -11,7 +11,7 @@ const serviceAccount = JSON.parse(decodedKey);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://<your-project-id>.firebaseio.com' // Replace with your DB URL
+  databaseURL: 'https://boostbizz-217e3.firebaseio.com' 
 });
 
 const db = admin.firestore();
